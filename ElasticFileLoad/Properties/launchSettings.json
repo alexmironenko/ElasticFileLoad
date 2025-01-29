@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ElasticFileLoad": {
+      "commandName": "Project",
+      "commandLineArgs": "userlist.json"
+    }
+  }
+}

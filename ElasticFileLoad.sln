@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElasticFileLoad", "ElasticFileLoad\ElasticFileLoad.csproj", "{D96EE334-88EE-46C6-80D1-E8007BF550EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD81AD32-078B-4F4A-828C-37E9EA929D6E}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+		userlist.json = userlist.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElasticFileLoad.Tests", "ElasticFileLoad.Tests\ElasticFileLoad.Tests.csproj", "{D08E2FD7-1CFC-429C-9D1E-C1EEED3F08A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D96EE334-88EE-46C6-80D1-E8007BF550EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96EE334-88EE-46C6-80D1-E8007BF550EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96EE334-88EE-46C6-80D1-E8007BF550EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96EE334-88EE-46C6-80D1-E8007BF550EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08E2FD7-1CFC-429C-9D1E-C1EEED3F08A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08E2FD7-1CFC-429C-9D1E-C1EEED3F08A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08E2FD7-1CFC-429C-9D1E-C1EEED3F08A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08E2FD7-1CFC-429C-9D1E-C1EEED3F08A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAF393B6-E873-450D-90EC-A7C3B89D7436}
+	EndGlobalSection
+EndGlobal
